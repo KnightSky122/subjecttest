@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,700;1,300;1,700&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #060114;
+}
+.container {
+    font-family: Poppins;
+    font-size: 700;
+}
+.text-header {
+    color: #00ff5e;
+    background-color:#ff00d0 ;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+.imgwill {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    margin-top: 10px;
+}
+.will {
+    border: #00ff5e ridge 4px;
+}
+.text-img{
+    margin: 0;
+    font-family: Poppins;
+    font-size: 300;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    
+}
+h4{
+    border: #00ff5e ridge 4px;
+    margin: 5px;
+    padding: 5px;
+}
+.textbio {
+    margin: 10px;
+    font-family: Poppins;
+    font-size: 300;
+    color: whitesmoke;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filmes {    
+    background-color: #00ff5e;
+    margin-top: 90px;
+    font-family: Poppins;
+    font-weight: 600;
+    color:#ff00d0 ;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.carousel-item {
+    display: flex;
+    height: 400px;
+    margin: 10px;
+    justify-content: center;
+}
+@media screen and (max-widht: 800px) {
+    
+}
